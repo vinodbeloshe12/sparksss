@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demo Pro</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="slider" id="slider">
+            <div class="logo">Demo Pro</div>
+            <div class="slider__content" id="slider-content">
+                <div class="slider__images">
+                    <div class="slider__images-item slider__images-item--active" data-id="1">
+                        <img src="http://hdwallpapersrocks.com/wp-content/uploads/2013/09/3D-fantasy-animal-art.jpg" />
+                    </div>
+                    <div class="slider__images-item" data-id="2">
+                        <img src="https://www.planwallpaper.com/static/images/3d-animal-backgrounds-17306-17862-hd-wallpapers_MkXEx9v.jpg" />
+                    </div>
+                    <div class="slider__images-item" data-id="3">
+                        <img src="http://www.creativehdwallpapers.com/uploads/large/3d/3d-animal-tiger-face-picture.jpg" />
+                    </div>
+                    <div class="slider__images-item" data-id="4">
+                        <img src="http://www.hd-freeimages.com/uploads/large/funny-wallpapers/free-mobile-funny-hd-wallpapers-download-3d.jpg" />
+                    </div>
+
+                </div>
+                <div class="slider__text">
+                    <div class="slider__text-item slider__text-item--active" data-id="1">
+                        <div class="slider__text-item-head">
+                            <h3>Forest</h3>
+                        </div>
+                        <div class="slider__text-item-info">
+                            <p>“And into the forest I go, to lose my mind and find my soul”</p>
+                        </div>
+                    </div>
+                    <div class="slider__text-item" data-id="2">
+                        <div class="slider__text-item-head">
+                            <h3>Lake</h3>
+                        </div>
+                        <div class="slider__text-item-info">
+                            <p>“Mist to mist, drops to drops. For water thou art, and unto water shalt thou return”</p>
+                        </div>
+                    </div>
+                    <div class="slider__text-item" data-id="3">
+                        <div class="slider__text-item-head">
+                            <h3>Cliffs</h3>
+                        </div>
+                        <div class="slider__text-item-info">
+                            <p>“Go to the edge of the cliff and jump off. Build your wings on the way down”</p>
+                        </div>
+                    </div>
+                    <div class="slider__text-item" data-id="4">
+                        <div class="slider__text-item-head">
+                            <h3>Mountains</h3>
+                        </div>
+                        <div class="slider__text-item-info">
+                            <p>“What are men to rocks and mountains?”</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="slider__nav">
+                <div class="slider__nav-arrows">
+                    <div class="slider__nav-arrow slider__nav-arrow--left" id="left">to left</div>
+                    <div class="slider__nav-arrow slider__nav-arrow--right" id="right">to right</div>
+                </div>
+                <div class="slider__nav-dots" id="slider-dots">
+                    <div class="slider__nav-dot slider__nav-dot--active" data-id="1"></div>
+                    <div class="slider__nav-dot" data-id="2"></div>
+                    <div class="slider__nav-dot" data-id="3"></div>
+                    <div class="slider__nav-dot" data-id="4"></div>
+                    <div class="slider__nav-dot" data-id="5"></div>
+                </div>
+            </div>
+
+            <div class='mouse-container'>
+                <div class='mouse'>
+                    <span class='scroll-down'></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container mt100">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="test" id="test">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, hic deleniti. Perferendis velit quis
+                        soluta quasi eaque! Odio commodi repudiandae adipisci at, iste rem ex beatae aperiam. Aut, fugiat
+                        voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, hic deleniti. Perferendis
+                        velit quis soluta quasi eaque! Odio commodi repudiandae adipisci at, iste rem ex beatae aperiam.
+                        Aut, fugiat voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, hic deleniti.
+                        Perferendis velit quis soluta quasi eaque! Odio commodi repudiandae adipisci at, iste rem ex beatae
+                        aperiam. Aut, fugiat voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
+                        hic deleniti. Perferendis velit quis soluta quasi eaque! Odio commodi repudiandae adipisci at, iste
+                        rem ex beatae aperiam. Aut, fugiat voluptatibus.</p>
+                </div>
+                <div class="col-md-6">Test2</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

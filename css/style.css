@@ -1,0 +1,28 @@
+.logo {
+    z-index: 999;
+    padding: 20px 25px;
+    background-color: #ccc;
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateY(50);
+}
+
+.mt100 {
+    margin-top: 100px;
+}
+
+.test {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px #ebebeb solid;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s ease-out;
+}
+
+.test.fade-in {
+    opacity: 1;
+    transform: translateY(-50);
+}
