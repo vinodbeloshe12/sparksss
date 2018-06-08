@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Rancho|Merienda');
+body {
+    font-family: 'Merienda', cursive;
+    overflow: hidden;
+}
+
+.parentCont {
+    margin: 0px;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://columbiaairport.com/wp-content/uploads/2015/12/CAE-Website-Full-Background-Texture1902x1200-9.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.imgCont img {
+    position: absolute;
+    display: block;
+    filter: grayscale(0.4);
+    top: 40%;
+    transform: translateY(-40%);
+}
+
+.menuDiv {
+    width: 100%;
+    height: 25vh;
+    padding: 20px 50px;
+    /* background: rgb(233, 229, 229); */
+    /* border: thin solid #e2e2e240; */
+    box-shadow: 0px 0px 2px 1px #e2e2e285;
+}
+
+.introDiv {
+    height: 100vh;
+    transition: all 1.5s;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: #a3e0a8;
+}
+
+#menuContainer {
+    height: 100vh;
+    transition: all 1.5s;
+    top: 0;
+    right: 0;
+    background: #f9a86e;
+}
+
+.welcome {
+    position: absolute;
+    top: 40%;
+    width: 400px;
+    height: auto;
+    left: 50%;
+    transform: translate(-40%, -50%);
+}
+
+.welcome h1 {
+    font-size: 10rem;
+    margin: 0;
+}
+
+.welcome h2 {
+    font-size: 5rem;
+    margin: 0;
+}
+
+.profileCont {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    /* padding: 50px 100px; */
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s;
+    background-image: url('../images/bg-overlay.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* transform: scale(-0.5); */
+}
+
+.proIntro {
+    position: relative;
+    top: 120px;
+    left: 0;
+    transition: all 0.5s;
+    opacity: 0;
+    z-index: 9;
+    padding: 35px 50px;
+    transition: all 1.5s;
+}
+
+.nopadding {
+    padding: 0 !important;
+}
+
+.profileLeft {
+    width: 100%;
+    margin: 0;
+    height: 100vh;
+    background-image: url('https://www.digitalplatforms.co.za/wp-content/uploads/2015/11/Website-Design-Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aside {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    opacity: 0.4;
+}
+
+.aside img {
+    position: relative;
+    right: -100%;
+    top: 8%;
+    filter: invert(0.9);
+    transition: all 0.5s;
+}
+
+/* http://www.compiledtech.com/demos/preview/insta/preview/index.green.html */
